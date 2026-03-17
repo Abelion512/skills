@@ -48,6 +48,7 @@ Estimated issues: [rough count if possible]
 ## Rules
 
 - Review all files in scope before reporting — do not report file by file.
+- If more than 20 issues are found, list the top 10 critical ones and summarize the rest to prevent output overflow.
 - Always include positives per file.
 - If a file has no issues, say so explicitly.
 - Never rewrite files unless explicitly instructed.

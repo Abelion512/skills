@@ -40,6 +40,7 @@ severity.
 - JWT signed with explicit algorithm (e.g., HS256) — never `none`
 - Tokens have expiry (`expiresIn`)
 - Supabase Auth RLS policies enforced on all tables
+- **Critical:** Check for `USING (true)` or `public` role access. Ensure it is intentional (e.g., for public read-only data).
 - No hardcoded credentials anywhere in code
 
 ### 4. Sensitive Data Exposure
